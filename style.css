@@ -62,11 +62,15 @@ nav ul li a {
 }
 
 .about {
-  padding: 50px 0;
+  margin: 30px;
+  padding: 5px;
+  font-size: 16px;
 }
 
 .projects {
-  padding: 50px 0;
+  margin: 30px;
+  padding: 5px;
+  font-size: 16px;
 }
 
 .project {
@@ -74,36 +78,31 @@ nav ul li a {
 }
 
 .project img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 5px;
 }
 
 .skills {
-  padding: 50px 0;
+  margin: 30px;
+  padding: 5px;
+  font-size: 16px;
 }
 
 .contact {
-  padding: 50px 0;
-}
-
-.contact form input,
-.contact form textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
-.contact form button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  margin: 30px;
+  padding: 5px;
+  font-size: 16px;
 }
 
 .social {
-  margin-top: 20px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social > span {
+  padding-left: 15px;
 }
 
 .social a {
@@ -199,4 +198,10 @@ div#sidebar > ul > li > a:hover {
   header > nav > ul > li {
     display: none;
   }
+}
+
+section#about > .container > ul > li {
+  margin: 30px;
+  padding: 5px;
+  font-size: 16px;
 }
