@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+#hero {
+  height: 600px;
+  background-image: url("./assets/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#hero > #nav {
+  max-width: 1000px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
+  margin: 0 auto;
+}
+
+#hero > #nav > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+#hero > #nav > nav > h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#hero > #nav > nav > div > a {
+  all: unset;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button#login {
+  color: white;
+  font-weight: bold;
+}
+button#register {
+  font-weight: bold;
+  color: white;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+#hero > .text {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+#hero > .text > h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 100px;
+  width: 60%;
+}
+
+#hero > .text > p {
+  font-size: 18px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+button#quote {
+  color: white;
+  border-radius: 100px;
+  background-color: #23a6f0;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+button#learn {
+  color: #23a6f0;
+  border-color: #23a6f0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+#quin {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#quin > #hug1 > span {
+  height: 100px;
+  background-image: url(./assets/Hug.png);
+  background-size: auto;
+  background-position: center;
+}
+
+#quin > #hug2 > span {
+  height: 100px;
+  background-image: url(./assets/Hug.png);
+  background-position: center;
+}
+
+#quin > .text1 > h1 {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+#quin > .text1 > p {
+  font-size: 18px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#quin > #hug1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+#quin > #hug2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+#quin > #hug1 > span {
+  padding: 30px 300px 30px 30px;
+}
+
+#quin > #hug2 > span {
+  padding: 30px 300px 30px 30px;
+  margin-bottom: 40px;
+}
+
+#king {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+#king > .text2 > h1 {
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+#king > .text2 > p {
+  font-size: 18px;
+  width: 60%;
+  margin: 20px 210px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#client {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+#client > #say {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+#client > #say > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 0px 100px 50px 150px;
+}
+
+#client > #say > span > .text10 {
+  height: 100px;
+  background-image: url(./assets/Leslie.png);
+  background-position: center;
+}
+
+#client > #say > span > .text20 {
+  height: 100px;
+  background-image: url(./assets/Savannah.png);
+  background-position: center;
+}
+
+#client > #say > span > .text10 {
+  padding: 0px 120px 250px 0px;
+  margin-left: 20px;
+}
+
+#client > #say > span > .text20 {
+  padding: 0px 120px 250px 0px;
+  margin-left: 100px;
+}
+
+#client > #say > span > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+#client > #say > span > span > .text2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#client > #say > span > span > .text3 {
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+}
+
+#client > #say > span > span > .star {
+  background-image: url(./assets/stars.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
+}
+
+#client > #say > span > span > p {
+  font-size: 15px;
+}
+
+#subscribe {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+#subscribe > #text {
+  background-color: #252b42;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 100px 40px 167px;
+  color: #ffffff;
+}
+
+#subscribe > #text > span {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+#subscribe > #text > span > p {
+  font-size: 12px;
+  padding: 10px 80px 0 0;
+}
+
+button#subscribe {
+  color: white;
+  border-radius: 10px;
+  background-color: #23a6f0;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+#subscribe > #text > #box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+#footer > div > span {
+  font-size: 12px;
+  padding: 30px 80px 30px 170px;
+}
+
+#footer > div > #socialIcon {
+  img {
+    margin: 0px 10px 0px 0px;
+  }
+}
