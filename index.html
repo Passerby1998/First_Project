@@ -12,8 +12,12 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
     <header>
       <h1>Website Portfolio</h1>
+      <!-- navbar -->
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -25,7 +29,7 @@
         <i id="menuIcon" class="bi bi-list"></i>
       </nav>
     </header>
-
+    <!-- sidebar -->
     <div id="sidebarBackground">
       <div id="sidebar">
         <div>
@@ -41,73 +45,32 @@
         </ul>
       </div>
     </div>
-
+    <!-- home -->
     <section id="home" class="home">
       <div>
         <h2>Welcome to My Portfolio</h2>
-        <p>A brief introduction goes here.</p>
-        <img src="your-photo.jpg" alt="Your Name" />
+        <p>A Graphic Designer learning Software Engineering Conversion.</p>
+        <img src="./assets/profile-pic.png" alt="Nik Fakri" />
+        <h3>Nik Muhammad Fakri Bin Nik Mohd Rosdhi</h3>
       </div>
     </section>
-
+    <!-- about -->
     <section id="about" class="about">
       <div class="container">
         <h2>About Me</h2>
-        <h3>My Personal Portfolio</h3>
         <ul>
           <li>
-            Proficient Frontend Developer: Skilled in HTML, CSS, and JavaScript,
-            creating visually stunning and responsive websites.
+            Coming from graphic designer background transitioning to software
+            engineering
           </li>
           <li>
-            Creative Graphic Designer: Combining design expertise with coding
-            skills to deliver visually captivating user interfaces.
-          </li>
-          <li>
-            Interactive User Experiences: Crafting engaging interfaces that
-            seamlessly blend aesthetics with functionality for an enhanced user
-            experience.
-          </li>
-          <li>
-            Mobile-First Approach: Ensuring websites are optimized for mobile
-            devices, offering a seamless experience across all screen sizes.
-          </li>
-          <li>
-            Clean and Modern Designs: Implementing sleek and modern design
-            principles to create visually appealing websites that leave a
-            lasting impression.
-          </li>
-          <li>
-            Attention to Detail: Meticulously refining every aspect of design
-            and functionality to deliver polished and professional results.
-          </li>
-          <li>
-            Custom Solutions: Developing tailored solutions to meet clients'
-            specific needs and requirements, from concept to implementation.
-          </li>
-          <li>
-            Collaborative Team Player: Thriving in collaborative environments,
-            working closely with clients and team members to bring visions to
-            life.
-          </li>
-          <li>
-            Continuous Learning: Keeping up-to-date with the latest design
-            trends and frontend technologies to deliver cutting-edge solutions.
-          </li>
-          <li>
-            Portfolio Highlights: Showcase a selection of projects that
-            demonstrate Mr. Fakri's skills and expertise, including website
-            designs, UI/UX projects, and interactive elements.
-          </li>
-          <li>
-            Testimonials: Feature testimonials from satisfied clients or
-            colleagues highlighting Mr. Fakri's professionalism, creativity, and
-            dedication to excellence.
+            Particularly interested in learning programming language and eager
+            to dive deep into coding environment
           </li>
         </ul>
       </div>
     </section>
-
+    <!-- project -->
     <section id="projects" class="projects">
       <div>
         <h2>Projects</h2>
@@ -131,37 +94,58 @@
         <!-- Repeat the above structure for other projects -->
       </div>
     </section>
-
+    <!-- skills -->
     <section id="skills" class="skills">
       <div>
         <h2>Skills</h2>
         <br />
-        <ul>
-          <li>HTML - Entry Level</li>
-          <li>CSS - Entry Level</li>
-          <li>JavaScript - Entry Level</li>
-          <!-- Add more skills as needed -->
-        </ul>
+        <img src="./assets/HTML.png" style="margin-right: 15px" alt="html" />
+        <img src="./assets/CSS.png" style="margin-right: 15px" alt="css" />
+        <img
+          src="./assets/JavaScript.png"
+          style="margin-right: 15px"
+          alt="js"
+        />
       </div>
     </section>
-
+    <!-- contact -->
     <section id="contact" class="contact">
       <div>
         <h2>Contact Me</h2>
         <br />
+        <div class="form">
+          <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
         <div class="social">
-          <i class="bi bi-whatsapp"></i
-          ><span><a href="https://wa.me/60178085058"> +6017-8085 058</a></span
-          ><br />
-          <i class="bi bi-envelope-at"></i
-          ><span><a href="#"> irkafkin@gmail.com</a></span>
+          <a href="https://wa.me/60178085058"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.facebook.com/nikahmad.fakri"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://www.reddit.com/user/Existing_Month_7437/"
+            ><i class="bi bi-reddit"></i
+          ></a>
+          <a href="https://github.com/Passerby1998"
+            ><i class="bi bi-github"></i
+          ></a>
           <!-- Add more social media links as needed -->
         </div>
       </div>
     </section>
+    <!-- footer -->
     <footer>
       <div>
-        <p>&copy; 2024 Website Portfolio. All rights reserved.</p>
+        <p>&copy; Nik Fakri. | All rights reserved.</p>
       </div>
     </footer>
   </body>
